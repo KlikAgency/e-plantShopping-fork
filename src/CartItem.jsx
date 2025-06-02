@@ -49,6 +49,7 @@ const CartItem = ({ onContinueShopping }) => {
     return (parseFloat(item.cost) * item.quantity).toFixed(2); // Return total cost for the item formatted to 2 decimal places
   };
 
+
   const handleCheckoutShopping = (e) => {
   alert('Functionality to be added for future reference');
 };
